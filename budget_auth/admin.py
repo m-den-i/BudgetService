@@ -1,3 +1,8 @@
 from django.contrib import admin
 
-# Register your models here.
+from django.contrib.admin.models import LogEntry
+
+from budget_auth.models import User
+
+admin.site.register(User)
+admin.site.register(LogEntry)

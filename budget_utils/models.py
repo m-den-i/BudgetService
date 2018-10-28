@@ -6,7 +6,7 @@ class InvariantMixin(models.Model):
 
     def save(self, *args, **kwargs):
         for invariant in self.invariants:
-            invariant.is_active(self)
+            invariant.is_active(model_object=self)
         super().save(*args, **kwargs)
 
     class Meta:
