@@ -1,0 +1,7 @@
+Django==2.1.2
+pytz==2018.6
+
+django-mptt
+
+django-model-utils
+django-location-field==2.0.3

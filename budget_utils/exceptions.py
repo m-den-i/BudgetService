@@ -1,0 +1,2 @@
+class CannotChangeObjectException(Exception):
+    pass
