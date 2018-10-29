@@ -1,0 +1,10 @@
+services:
+  postgresql:
+    restart: always
+    image: postgres:10.1
+    volumes:
+      - postgres:/var/lib/postgresql:Z
+
+  volumes:
+    postgres:
+      external: true

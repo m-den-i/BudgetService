@@ -5,3 +5,4 @@ django-mptt
 
 django-model-utils
 django-location-field==2.0.3
+psycopg2
